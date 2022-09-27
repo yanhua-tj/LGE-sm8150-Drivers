@@ -1,5 +1,5 @@
-## Surface Duo Drivers BSP - Version 2209.26
-**Released:** 9/08/2022 00:30 AM UTC+2
+## Surface Duo Drivers BSP - Version 2209.86
+**Released:** 9/26/2022 11:00 AM UTC+2
 
 **Quality:** Preview
 
@@ -22,8 +22,13 @@ ________________________________________________________________________________
 
 ### Changelog
 
-- Performance and Stability improvements for the GPU driver (Bump to version 1840).
-- NOTE: In case you missed it, latest UEFI firmware updates fix the graphical glitches issue with the GPU device and enable 3D acceleration. Make sure you update to the latest UEFI!
+- Addresses an issue where USB-C detection got broken with an earlier release. As a result, powered docks among other things stopped being detected correctly and did not work as expected
+
+- Addresses an issue where unplugging an usb device other than another computer would not reflect in the port being disconnected from the Windows side on Surface Duo
+
+- Addresses an issue where USB Power only cables would result in the USB-C detection state machine to get stuck while waiting for the missing charger code to start
+
+- Lots of bug fixes and enhancements with USB-C
 
 - Call provisioning is work in progress, if calls do not work for you at the moment, you may need to provision the call functionality manually. (Same as on Lumia 950s: https://woa-project.github.io/LumiaWOA/guides/ican0/, value is not different between 950s and Duo either, so if you already have such value, you're good to go, this is temporary!)
 
