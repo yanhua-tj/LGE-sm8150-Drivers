@@ -1,5 +1,5 @@
-## Surface Duo Drivers BSP - Version 2209.86
-**Released:** 9/26/2022 11:00 AM UTC+2
+## Surface Duo Drivers BSP - Version 2210.51
+**Released:** 10/16/2022 11:00 PM UTC+2
 
 **Quality:** Preview
 
@@ -16,19 +16,14 @@ ________________________________________________________________________________
 
 #### Important information
 
-- ⚠️⚠️ **IMPORTANT: This version of the drivers needs to be paired with UEFI version greater or equal to 2.38.** ⚠️⚠️
+- ⚠️⚠️ **IMPORTANT: This version of the drivers needs to be paired with UEFI version greater or equal to 2210.48.** ⚠️⚠️
 - ⚠️⚠️ **IMPORTANT: If you get a BSOD/Bugcheck "SOC_SUBSYSTEM_FAILURE" when upgrading, you will have to reinstall Windows** ⚠️⚠️
-- ⚠️⚠️ **IMPORTANT: Upgrades using DriverUpdater *may* lead under some rare cases to the GPU device not being loaded on next boot, to fix this, go to device manager and manually update the GPU device again.** ⚠️⚠️
 
 ### Changelog
 
-- Addresses an issue where USB-C detection got broken with an earlier release. As a result, powered docks among other things stopped being detected correctly and did not work as expected
+- Addresses an issue with device ids for PEP Provisioning Packages for Power Performance Tuning. This should resolve poor performance regressions with last update
 
-- Addresses an issue where unplugging an usb device other than another computer would not reflect in the port being disconnected from the Windows side on Surface Duo
-
-- Addresses an issue where USB Power only cables would result in the USB-C detection state machine to get stuck while waiting for the missing charger code to start
-
-- Lots of bug fixes and enhancements with USB-C
+- Addresses an issue with Power Delivery PHY TX and RX Messaging Packets being incorrectly interpreted by the device under some rare occasions. This should improve Power Delivery compatibility over the device USB-C Port.
 
 - Call provisioning is work in progress, if calls do not work for you at the moment, you may need to provision the call functionality manually. (Same as on Lumia 950s: https://woa-project.github.io/LumiaWOA/guides/ican0/, value is not different between 950s and Duo either, so if you already have such value, you're good to go, this is temporary!)
 
