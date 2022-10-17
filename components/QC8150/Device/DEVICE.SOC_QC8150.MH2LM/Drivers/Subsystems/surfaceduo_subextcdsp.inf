@@ -121,7 +121,7 @@ HKR,,"WaitForVolStartupAppComplete",%REG_DWORD%,1
 ;If overwritten by OEMs, they must ensure to generate path mappings under this subkey.
 ;If defined, subsys looks under HKR,Mappings\<Protocol>\<PathMappingKeyName> instead of HKR,Mappings\<Protocol>
 ;This value can have maximum length of 128 excluding NULL character.
-;HKR,Mappings,"PathMappingKeyName",%REG_SZ%,"Default"
+HKR,Mappings,"PathMappingKeyName",%REG_SZ%,"Default"
 
 [SUBSYSReg_CDSP_HW]
 ;Image path for resource bin
@@ -203,88 +203,88 @@ fastrpc_shell_3.1
 [HashMapping_CDSP]
 
 ; Updating registry of fastrpc_shell_3.1 to remote path \cdsp\fastrpc_shell_3
-HKR,Mappings\FASTRPC\97e955961e757cc681afede1a991022bbfded8902ebf857692f0d19745b5a109,"Local",%REG_SZ%, %13%\CDSP\fastrpc_shell_3.1
-hkr,mappings\fastrpc\97e955961e757cc681afede1a991022bbfded8902ebf857692f0d19745b5a109,"remote",%reg_sz%, \cdsp\fastrpc_shell_3
+HKR,Mappings\FASTRPC\Default\97e955961e757cc681afede1a991022bbfded8902ebf857692f0d19745b5a109,"Local",%REG_SZ%, %13%\CDSP\fastrpc_shell_3.1
+hkr,mappings\fastrpc\default\97e955961e757cc681afede1a991022bbfded8902ebf857692f0d19745b5a109,"remote",%reg_sz%, \cdsp\fastrpc_shell_3
 
 ; Updating registry of fastrpc_shell_unsigned_3.2 to remote path \cdsp\fastrpc_shell_unsigned_3
-HKR,Mappings\FASTRPC\a0024fa5415302fd59161d32423f0e242a5ebf17471c21b6a6de8d3ef680e251,"Local",%REG_SZ%, %13%\CDSP\fastrpc_shell_unsigned_3.2
-hkr,mappings\fastrpc\a0024fa5415302fd59161d32423f0e242a5ebf17471c21b6a6de8d3ef680e251,"remote",%reg_sz%, \cdsp\fastrpc_shell_unsigned_3
+HKR,Mappings\FASTRPC\Default\a0024fa5415302fd59161d32423f0e242a5ebf17471c21b6a6de8d3ef680e251,"Local",%REG_SZ%, %13%\CDSP\fastrpc_shell_unsigned_3.2
+hkr,mappings\fastrpc\default\a0024fa5415302fd59161d32423f0e242a5ebf17471c21b6a6de8d3ef680e251,"remote",%reg_sz%, \cdsp\fastrpc_shell_unsigned_3
 
 ; Updating registry of libbenchmark_skel.so.3 to remote path \cdsp\libbenchmark_skel.so
-HKR,Mappings\FASTRPC\4756d99bc737feea9b2fd092a05e767fdb3dc08a1fc5726e5a87441a15a334c8,"Local",%REG_SZ%, %13%\CDSP\libbenchmark_skel.so.3
-hkr,mappings\fastrpc\4756d99bc737feea9b2fd092a05e767fdb3dc08a1fc5726e5a87441a15a334c8,"remote",%reg_sz%, \cdsp\libbenchmark_skel.so
+HKR,Mappings\FASTRPC\Default\4756d99bc737feea9b2fd092a05e767fdb3dc08a1fc5726e5a87441a15a334c8,"Local",%REG_SZ%, %13%\CDSP\libbenchmark_skel.so.3
+hkr,mappings\fastrpc\default\4756d99bc737feea9b2fd092a05e767fdb3dc08a1fc5726e5a87441a15a334c8,"remote",%reg_sz%, \cdsp\libbenchmark_skel.so
 
 ; Updating registry of libc++.so.1.4 to remote path \cdsp\libc++.so.1
-HKR,Mappings\FASTRPC\3fa7d1676633e8903ef19eb9b381f1f27d437115ba0da26998e383e889d903fa,"Local",%REG_SZ%, %13%\CDSP\libc++.so.1.4
-hkr,mappings\fastrpc\3fa7d1676633e8903ef19eb9b381f1f27d437115ba0da26998e383e889d903fa,"remote",%reg_sz%, \cdsp\libc++.so.1
+HKR,Mappings\FASTRPC\Default\3fa7d1676633e8903ef19eb9b381f1f27d437115ba0da26998e383e889d903fa,"Local",%REG_SZ%, %13%\CDSP\libc++.so.1.4
+hkr,mappings\fastrpc\default\3fa7d1676633e8903ef19eb9b381f1f27d437115ba0da26998e383e889d903fa,"remote",%reg_sz%, \cdsp\libc++.so.1
 
 ; Updating registry of libc++abi.so.1.5 to remote path \cdsp\libc++abi.so.1
-HKR,Mappings\FASTRPC\fe1fa46ffc8f4fa19041ff2b08dc18a64006637726d376483583f145a72b30fc,"Local",%REG_SZ%, %13%\CDSP\libc++abi.so.1.5
-hkr,mappings\fastrpc\fe1fa46ffc8f4fa19041ff2b08dc18a64006637726d376483583f145a72b30fc,"remote",%reg_sz%, \cdsp\libc++abi.so.1
+HKR,Mappings\FASTRPC\Default\fe1fa46ffc8f4fa19041ff2b08dc18a64006637726d376483583f145a72b30fc,"Local",%REG_SZ%, %13%\CDSP\libc++abi.so.1.5
+hkr,mappings\fastrpc\default\fe1fa46ffc8f4fa19041ff2b08dc18a64006637726d376483583f145a72b30fc,"remote",%reg_sz%, \cdsp\libc++abi.so.1
 
 ; Updating registry of libhcp_rpc_skel.so.6 to remote path \cdsp\libhcp_rpc_skel.so
-HKR,Mappings\FASTRPC\463ebadda4f5b46365649c17736466a617c27609e1b66f3e4abba192a9afe7af,"Local",%REG_SZ%, %13%\CDSP\libhcp_rpc_skel.so.6
-hkr,mappings\fastrpc\463ebadda4f5b46365649c17736466a617c27609e1b66f3e4abba192a9afe7af,"remote",%reg_sz%, \cdsp\libhcp_rpc_skel.so
+HKR,Mappings\FASTRPC\Default\463ebadda4f5b46365649c17736466a617c27609e1b66f3e4abba192a9afe7af,"Local",%REG_SZ%, %13%\CDSP\libhcp_rpc_skel.so.6
+hkr,mappings\fastrpc\default\463ebadda4f5b46365649c17736466a617c27609e1b66f3e4abba192a9afe7af,"remote",%reg_sz%, \cdsp\libhcp_rpc_skel.so
 
 ; Updating registry of libhta_dsp_skel.so.7 to remote path \cdsp\libhta_dsp_skel.so
-HKR,Mappings\FASTRPC\c93fffb45069f5197dbdfef54b5b9e9fc516791b7b5613af4a55a68794fb60e7,"Local",%REG_SZ%, %13%\CDSP\libhta_dsp_skel.so.7
-hkr,mappings\fastrpc\c93fffb45069f5197dbdfef54b5b9e9fc516791b7b5613af4a55a68794fb60e7,"remote",%reg_sz%, \cdsp\libhta_dsp_skel.so
+HKR,Mappings\FASTRPC\Default\c93fffb45069f5197dbdfef54b5b9e9fc516791b7b5613af4a55a68794fb60e7,"Local",%REG_SZ%, %13%\CDSP\libhta_dsp_skel.so.7
+hkr,mappings\fastrpc\default\c93fffb45069f5197dbdfef54b5b9e9fc516791b7b5613af4a55a68794fb60e7,"remote",%reg_sz%, \cdsp\libhta_dsp_skel.so
 
 ; Updating registry of libimmotion_skel.so.8 to remote path \cdsp\libimmotion_skel.so
-HKR,Mappings\FASTRPC\c3417fa6056aa0c252bbfc78ca8fe194bad045e6088e53ecd4f1da965295f608,"Local",%REG_SZ%, %13%\CDSP\libimmotion_skel.so.8
-hkr,mappings\fastrpc\c3417fa6056aa0c252bbfc78ca8fe194bad045e6088e53ecd4f1da965295f608,"remote",%reg_sz%, \cdsp\libimmotion_skel.so
+HKR,Mappings\FASTRPC\Default\c3417fa6056aa0c252bbfc78ca8fe194bad045e6088e53ecd4f1da965295f608,"Local",%REG_SZ%, %13%\CDSP\libimmotion_skel.so.8
+hkr,mappings\fastrpc\default\c3417fa6056aa0c252bbfc78ca8fe194bad045e6088e53ecd4f1da965295f608,"remote",%reg_sz%, \cdsp\libimmotion_skel.so
 
 ; Updating registry of libstabilitydomain_skel.so.9 to remote path \cdsp\libstabilitydomain_skel.so
-HKR,Mappings\FASTRPC\b831e7c99f9a7a460afd6baa64aacc2a107fcd89bb748657006b454458e09778,"Local",%REG_SZ%, %13%\CDSP\libstabilitydomain_skel.so.9
-hkr,mappings\fastrpc\b831e7c99f9a7a460afd6baa64aacc2a107fcd89bb748657006b454458e09778,"remote",%reg_sz%, \cdsp\libstabilitydomain_skel.so
+HKR,Mappings\FASTRPC\Default\b831e7c99f9a7a460afd6baa64aacc2a107fcd89bb748657006b454458e09778,"Local",%REG_SZ%, %13%\CDSP\libstabilitydomain_skel.so.9
+hkr,mappings\fastrpc\default\b831e7c99f9a7a460afd6baa64aacc2a107fcd89bb748657006b454458e09778,"remote",%reg_sz%, \cdsp\libstabilitydomain_skel.so
 
 ; Updating registry of libsysmondomain_skel.so.10 to remote path \cdsp\libsysmondomain_skel.so
-HKR,Mappings\FASTRPC\8a040f0f1604eec4cff5b02fc0c976ea05ad765e3a6258dee559ab20f4beb833,"Local",%REG_SZ%, %13%\CDSP\libsysmondomain_skel.so.10
-hkr,mappings\fastrpc\8a040f0f1604eec4cff5b02fc0c976ea05ad765e3a6258dee559ab20f4beb833,"remote",%reg_sz%, \cdsp\libsysmondomain_skel.so
+HKR,Mappings\FASTRPC\Default\8a040f0f1604eec4cff5b02fc0c976ea05ad765e3a6258dee559ab20f4beb833,"Local",%REG_SZ%, %13%\CDSP\libsysmondomain_skel.so.10
+hkr,mappings\fastrpc\default\8a040f0f1604eec4cff5b02fc0c976ea05ad765e3a6258dee559ab20f4beb833,"remote",%reg_sz%, \cdsp\libsysmondomain_skel.so
 
 ; Updating registry of libsysmonhvxthrottle_skel.so.11 to remote path \cdsp\libsysmonhvxthrottle_skel.so
-HKR,Mappings\FASTRPC\ca3b1100788bfb51f9ae2fcccc889ba1d1a95503cd0ebb6855358811aaca05be,"Local",%REG_SZ%, %13%\CDSP\libsysmonhvxthrottle_skel.so.11
-hkr,mappings\fastrpc\ca3b1100788bfb51f9ae2fcccc889ba1d1a95503cd0ebb6855358811aaca05be,"remote",%reg_sz%, \cdsp\libsysmonhvxthrottle_skel.so
+HKR,Mappings\FASTRPC\Default\ca3b1100788bfb51f9ae2fcccc889ba1d1a95503cd0ebb6855358811aaca05be,"Local",%REG_SZ%, %13%\CDSP\libsysmonhvxthrottle_skel.so.11
+hkr,mappings\fastrpc\default\ca3b1100788bfb51f9ae2fcccc889ba1d1a95503cd0ebb6855358811aaca05be,"remote",%reg_sz%, \cdsp\libsysmonhvxthrottle_skel.so
 
 ; Updating registry of libsysmonquery_skel.so.12 to remote path \cdsp\libsysmonquery_skel.so
-HKR,Mappings\FASTRPC\37825d17d5431eab5b504d216555d5af232a1cfa6b973984bf822c5e0f114d96,"Local",%REG_SZ%, %13%\CDSP\libsysmonquery_skel.so.12
-hkr,mappings\fastrpc\37825d17d5431eab5b504d216555d5af232a1cfa6b973984bf822c5e0f114d96,"remote",%reg_sz%, \cdsp\libsysmonquery_skel.so
+HKR,Mappings\FASTRPC\Default\37825d17d5431eab5b504d216555d5af232a1cfa6b973984bf822c5e0f114d96,"Local",%REG_SZ%, %13%\CDSP\libsysmonquery_skel.so.12
+hkr,mappings\fastrpc\default\37825d17d5431eab5b504d216555d5af232a1cfa6b973984bf822c5e0f114d96,"remote",%reg_sz%, \cdsp\libsysmonquery_skel.so
 
 ; Updating registry of libsysmon_skel.so.13 to remote path \cdsp\libsysmon_skel.so
-HKR,Mappings\FASTRPC\0629f36ee64bed99ff60ef85e478d297bc0f67b2de4f02247524abec69164a46,"Local",%REG_SZ%, %13%\CDSP\libsysmon_skel.so.13
-hkr,mappings\fastrpc\0629f36ee64bed99ff60ef85e478d297bc0f67b2de4f02247524abec69164a46,"remote",%reg_sz%, \cdsp\libsysmon_skel.so
+HKR,Mappings\FASTRPC\Default\0629f36ee64bed99ff60ef85e478d297bc0f67b2de4f02247524abec69164a46,"Local",%REG_SZ%, %13%\CDSP\libsysmon_skel.so.13
+hkr,mappings\fastrpc\default\0629f36ee64bed99ff60ef85e478d297bc0f67b2de4f02247524abec69164a46,"remote",%reg_sz%, \cdsp\libsysmon_skel.so
 
 ; Updating registry of libvpp_aie.so.14 to remote path \cdsp\libvpp_aie.so
-HKR,Mappings\FASTRPC\b86b14b739784e43cb79a361b2c274ec7f188c336c1aea90a9b3e52113a2930c,"Local",%REG_SZ%, %13%\CDSP\libvpp_aie.so.14
-hkr,mappings\fastrpc\b86b14b739784e43cb79a361b2c274ec7f188c336c1aea90a9b3e52113a2930c,"remote",%reg_sz%, \cdsp\libvpp_aie.so
+HKR,Mappings\FASTRPC\Default\b86b14b739784e43cb79a361b2c274ec7f188c336c1aea90a9b3e52113a2930c,"Local",%REG_SZ%, %13%\CDSP\libvpp_aie.so.14
+hkr,mappings\fastrpc\default\b86b14b739784e43cb79a361b2c274ec7f188c336c1aea90a9b3e52113a2930c,"remote",%reg_sz%, \cdsp\libvpp_aie.so
 
 ; Updating registry of libvpp_frc.so.15 to remote path \cdsp\libvpp_frc.so
-HKR,Mappings\FASTRPC\19402a64177dfef20aae54aae7c160d1def866d61ba2a1714195db8fab40d32b,"Local",%REG_SZ%, %13%\CDSP\libvpp_frc.so.15
-hkr,mappings\fastrpc\19402a64177dfef20aae54aae7c160d1def866d61ba2a1714195db8fab40d32b,"remote",%reg_sz%, \cdsp\libvpp_frc.so
+HKR,Mappings\FASTRPC\Default\19402a64177dfef20aae54aae7c160d1def866d61ba2a1714195db8fab40d32b,"Local",%REG_SZ%, %13%\CDSP\libvpp_frc.so.15
+hkr,mappings\fastrpc\default\19402a64177dfef20aae54aae7c160d1def866d61ba2a1714195db8fab40d32b,"remote",%reg_sz%, \cdsp\libvpp_frc.so
 
 ; Updating registry of libvpp_mvp.so.16 to remote path \cdsp\libvpp_mvp.so
-HKR,Mappings\FASTRPC\c12a8b6c666aab66724afccdff526c263d420bc4cf26a271d8ef58574bdf654f,"Local",%REG_SZ%, %13%\CDSP\libvpp_mvp.so.16
-hkr,mappings\fastrpc\c12a8b6c666aab66724afccdff526c263d420bc4cf26a271d8ef58574bdf654f,"remote",%reg_sz%, \cdsp\libvpp_mvp.so
+HKR,Mappings\FASTRPC\Default\c12a8b6c666aab66724afccdff526c263d420bc4cf26a271d8ef58574bdf654f,"Local",%REG_SZ%, %13%\CDSP\libvpp_mvp.so.16
+hkr,mappings\fastrpc\default\c12a8b6c666aab66724afccdff526c263d420bc4cf26a271d8ef58574bdf654f,"remote",%reg_sz%, \cdsp\libvpp_mvp.so
 
 ; Updating registry of libvpp_nr.so.17 to remote path \cdsp\libvpp_nr.so
-HKR,Mappings\FASTRPC\8de26a12b73731b2528cf4674df8b8e44528b57af9cb4b3f585460ab7236c3b2,"Local",%REG_SZ%, %13%\CDSP\libvpp_nr.so.17
-hkr,mappings\fastrpc\8de26a12b73731b2528cf4674df8b8e44528b57af9cb4b3f585460ab7236c3b2,"remote",%reg_sz%, \cdsp\libvpp_nr.so
+HKR,Mappings\FASTRPC\Default\8de26a12b73731b2528cf4674df8b8e44528b57af9cb4b3f585460ab7236c3b2,"Local",%REG_SZ%, %13%\CDSP\libvpp_nr.so.17
+hkr,mappings\fastrpc\default\8de26a12b73731b2528cf4674df8b8e44528b57af9cb4b3f585460ab7236c3b2,"remote",%reg_sz%, \cdsp\libvpp_nr.so
 
 ; Updating registry of libvpp_qbr.so.18 to remote path \cdsp\libvpp_qbr.so
-HKR,Mappings\FASTRPC\7bffce569aa7f4875034e52859514f3deb31999c795b2b3baa6fcbd0cf15b63f,"Local",%REG_SZ%, %13%\CDSP\libvpp_qbr.so.18
-hkr,mappings\fastrpc\7bffce569aa7f4875034e52859514f3deb31999c795b2b3baa6fcbd0cf15b63f,"remote",%reg_sz%, \cdsp\libvpp_qbr.so
+HKR,Mappings\FASTRPC\Default\7bffce569aa7f4875034e52859514f3deb31999c795b2b3baa6fcbd0cf15b63f,"Local",%REG_SZ%, %13%\CDSP\libvpp_qbr.so.18
+hkr,mappings\fastrpc\default\7bffce569aa7f4875034e52859514f3deb31999c795b2b3baa6fcbd0cf15b63f,"remote",%reg_sz%, \cdsp\libvpp_qbr.so
 
 ; Updating registry of libvpp_svc_skel.so.19 to remote path \cdsp\libvpp_svc_skel.so
-HKR,Mappings\FASTRPC\da92e201185b69246579c29de93b108e8315110151fe53bf5ebe8019a888ef72,"Local",%REG_SZ%, %13%\CDSP\libvpp_svc_skel.so.19
-hkr,mappings\fastrpc\da92e201185b69246579c29de93b108e8315110151fe53bf5ebe8019a888ef72,"remote",%reg_sz%, \cdsp\libvpp_svc_skel.so
+HKR,Mappings\FASTRPC\Default\da92e201185b69246579c29de93b108e8315110151fe53bf5ebe8019a888ef72,"Local",%REG_SZ%, %13%\CDSP\libvpp_svc_skel.so.19
+hkr,mappings\fastrpc\default\da92e201185b69246579c29de93b108e8315110151fe53bf5ebe8019a888ef72,"remote",%reg_sz%, \cdsp\libvpp_svc_skel.so
 
 ; Updating registry of map_SHARED_LIBS_855.cdsp.prodQ.txt.20 to remote path \cdsp\map_SHARED_LIBS_855.cdsp.prodQ.txt
-HKR,Mappings\FASTRPC\7b46059fd9b49f7e017711f2db37a73ccd5a8362c50a741c7181f226eb369cae,"Local",%REG_SZ%, %13%\CDSP\map_SHARED_LIBS_855.cdsp.prodQ.txt.20
-hkr,mappings\fastrpc\7b46059fd9b49f7e017711f2db37a73ccd5a8362c50a741c7181f226eb369cae,"remote",%reg_sz%, \cdsp\map_shared_libs_855.cdsp.prodq.txt
+HKR,Mappings\FASTRPC\Default\7b46059fd9b49f7e017711f2db37a73ccd5a8362c50a741c7181f226eb369cae,"Local",%REG_SZ%, %13%\CDSP\map_SHARED_LIBS_855.cdsp.prodQ.txt.20
+hkr,mappings\fastrpc\default\7b46059fd9b49f7e017711f2db37a73ccd5a8362c50a741c7181f226eb369cae,"remote",%reg_sz%, \cdsp\map_shared_libs_855.cdsp.prodq.txt
 
 ; Updating registry of ubwcdma_dynlib.so.21 to remote path \cdsp\ubwcdma_dynlib.so
-HKR,Mappings\FASTRPC\1fbd1207c7b887c2134399eefe0065116a3aa32266f3af8e1e78b4cd6b1f51d3,"Local",%REG_SZ%, %13%\CDSP\ubwcdma_dynlib.so.21
-hkr,mappings\fastrpc\1fbd1207c7b887c2134399eefe0065116a3aa32266f3af8e1e78b4cd6b1f51d3,"remote",%reg_sz%, \cdsp\ubwcdma_dynlib.so
+HKR,Mappings\FASTRPC\Default\1fbd1207c7b887c2134399eefe0065116a3aa32266f3af8e1e78b4cd6b1f51d3,"Local",%REG_SZ%, %13%\CDSP\ubwcdma_dynlib.so.21
+hkr,mappings\fastrpc\default\1fbd1207c7b887c2134399eefe0065116a3aa32266f3af8e1e78b4cd6b1f51d3,"remote",%reg_sz%, \cdsp\ubwcdma_dynlib.so
 
 HKR,,FriendlyName,, %CDSP.FriendlyName%
 
