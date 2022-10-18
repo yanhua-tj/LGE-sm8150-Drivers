@@ -65,7 +65,7 @@
     <!-- AudioStream from MicArray, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicArray1</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -86,7 +86,7 @@
     <!-- AudioStream from MicArray, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicArray1</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -108,7 +108,7 @@
     <!-- AudioStream from CellularWaveFilter, BIDI1 Capture, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyCellular</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_BIDI1 -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -129,7 +129,7 @@
     <!-- AudioStream from CellularWaveFilter, BIDI2 Capture, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyCellular</TopologyName> <!-- Topology filter reference string-->
         <PinId>2</PinId> <!-- KSPIN_TOPO_BIDI2 -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -150,7 +150,7 @@
     <!-- AudioStream to speaker, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -171,7 +171,7 @@
     <!-- AudioStream to speaker, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -192,7 +192,7 @@
     <!-- AudioStream to speaker, media mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{4780004E-7133-41D8-8C74-660DADD2C0EE}</Mode> <!--Signal processing mode media-->
@@ -213,7 +213,7 @@
     <!-- AudioStream to speaker, movie mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{B26FEB0D-EC94-477C-9494-D1AB8E753F6E}</Mode> <!--Signal processing mode movie-->
@@ -234,7 +234,7 @@
     <!-- AudioStream to speaker, Communication mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{98951333-B9CD-48B1-A0A3-FF40682D73F7}</Mode> <!--Signal processing mode communication-->
@@ -255,7 +255,7 @@
     <!-- AudioStream to speaker, Notification mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9CF2A70B-F377-403B-BD6B-360863E0355C}</Mode> <!--Signal processing mode Notification-->
@@ -276,7 +276,7 @@
     <!-- AudioStream to speaker, default mode, offload -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -297,7 +297,7 @@
     <!-- AudioStream to speaker, Media mode, offload -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{4780004E-7133-41D8-8C74-660DADD2C0EE}</Mode> <!--Signal processing mode media-->
@@ -318,7 +318,7 @@
     <!-- AudioStream to speaker, movie mode, offload -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{B26FEB0D-EC94-477C-9494-D1AB8E753F6E}</Mode> <!--Signal processing mode movie-->
@@ -339,7 +339,7 @@
     <!-- AudioStream to speaker, default mode, loopback -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -360,7 +360,7 @@
     <!-- AudioStream from mic, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicIn</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -381,7 +381,7 @@
     <!-- AudioStream from mic, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicIn</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -402,7 +402,7 @@
     <!-- AudioStream from mic, speech mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicIn</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{FC1CFC9B-B9D6-4CFA-B5E0-4BB2166878B2}</Mode> <!--Signal processing mode speech-->
@@ -423,7 +423,7 @@
     <!-- AudioStream from mic, communication mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicIn</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{98951333-B9CD-48B1-A0A3-FF40682D73F7}</Mode> <!--Signal processing mode communication-->
@@ -444,7 +444,7 @@
     <!-- AudioStream to headset, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -465,7 +465,7 @@
     <!-- AudioStream to headset, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -486,7 +486,7 @@
     <!-- AudioStream to headset, media mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{4780004E-7133-41D8-8C74-660DADD2C0EE}</Mode> <!--Signal processing mode media-->
@@ -507,7 +507,7 @@
     <!-- AudioStream to headset, movie mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{B26FEB0D-EC94-477C-9494-D1AB8E753F6E}</Mode> <!--Signal processing mode movie-->
@@ -528,7 +528,7 @@
     <!-- AudioStream to headset, Communication mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{98951333-B9CD-48B1-A0A3-FF40682D73F7}</Mode> <!--Signal processing mode communication-->
@@ -549,7 +549,7 @@
     <!-- AudioStream to headset, Notification mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9CF2A70B-F377-403B-BD6B-360863E0355C}</Mode> <!--Signal processing mode Notification-->
@@ -570,7 +570,7 @@
     <!-- AudioStream to headset, default mode, offload -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -591,7 +591,7 @@
     <!-- AudioStream to headset, Media mode, offload -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{4780004E-7133-41D8-8C74-660DADD2C0EE}</Mode> <!--Signal processing mode media-->
@@ -612,7 +612,7 @@
     <!-- AudioStream to headset, movie mode, offload -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{B26FEB0D-EC94-477C-9494-D1AB8E753F6E}</Mode> <!--Signal processing mode movie-->
@@ -633,7 +633,7 @@
     <!-- AudioStream to headset, default mode, loopback -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologySpeakerHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -654,7 +654,7 @@
     <!-- AudioStream from headsetMic, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -675,7 +675,7 @@
     <!-- AudioStream from headsetMic, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -696,7 +696,7 @@
     <!-- AudioStream from headsetMic, speech mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{FC1CFC9B-B9D6-4CFA-B5E0-4BB2166878B2}</Mode> <!--Signal processing mode speech-->
@@ -717,7 +717,7 @@
     <!-- AudioStream from headsetMic, communication mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyMicHeadset</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{98951333-B9CD-48B1-A0A3-FF40682D73F7}</Mode> <!--Signal processing mode communication-->
@@ -738,7 +738,7 @@
     <!-- AudioStream to handset, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyHandsetSpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -759,7 +759,7 @@
     <!-- AudioStream to handset, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyHandsetSpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -780,7 +780,7 @@
     <!-- AudioStream to handset, Communication mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyHandsetSpeaker</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{98951333-B9CD-48B1-A0A3-FF40682D73F7}</Mode> <!--Signal processing mode communication-->
@@ -801,7 +801,7 @@
     <!-- AudioStream from handsetMic, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyHandsetMic</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -822,7 +822,7 @@
     <!-- AudioStream from handsetMic, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyHandsetMic</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -843,7 +843,7 @@
     <!-- AudioStream from handsetMic, speech mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyHandsetMic</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{FC1CFC9B-B9D6-4CFA-B5E0-4BB2166878B2}</Mode> <!--Signal processing mode speech-->
@@ -864,7 +864,7 @@
     <!-- AudioStream from handsetMic, communication mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyHandsetMic</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{98951333-B9CD-48B1-A0A3-FF40682D73F7}</Mode> <!--Signal processing mode communication-->
@@ -885,7 +885,7 @@
     <!-- AudioStream to BlueTooth, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyBthHfpSpeaker*</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -906,7 +906,7 @@
     <!-- AudioStream to BlueTooth, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyBthHfpSpeaker*</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -927,7 +927,7 @@
     <!-- AudioStream to BlueTooth, Communication mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyBthHfpSpeaker*</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{98951333-B9CD-48B1-A0A3-FF40682D73F7}</Mode> <!--Signal processing mode communication-->
@@ -948,7 +948,7 @@
     <!-- AudioStream from BlueToothMic, default mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyBthHfpMic*</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}</Mode> <!--Signal processing mode default-->
@@ -969,7 +969,7 @@
     <!-- AudioStream from BlueToothMic, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyBthHfpMic*</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -990,7 +990,7 @@
     <!-- AudioStream from BlueToothMic, speech mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyBthHfpMic*</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{FC1CFC9B-B9D6-4CFA-B5E0-4BB2166878B2}</Mode> <!--Signal processing mode speech-->
@@ -1011,7 +1011,7 @@
     <!-- AudioStream from BlueToothMic, communication mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyBthHfpMic*</TopologyName> <!-- Topology filter reference string-->
         <PinId>0</PinId> <!-- KSPIN_TOPO_MIC_ELEMENTS -->
         <Mode>{98951333-B9CD-48B1-A0A3-FF40682D73F7}</Mode> <!--Signal processing mode communication-->
@@ -1032,7 +1032,7 @@
     <!-- AudioStream to ExternalDisplay, raw mode, offload -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyExternalDisplay*</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -1053,7 +1053,7 @@
     <!-- AudioStream to ExternalDisplay, raw mode, host -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyExternalDisplay*</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
@@ -1074,7 +1074,7 @@
     <!-- AudioStream to ExternalDisplay, raw mode, loopback -->
     <ConsumerInfo>
       <Stream>
-        <HWID>AUDD\QCOM042C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
+        <HWID>AUDD\QCOM052C</HWID> <!-- Example of h/w id specified in phoneaudiosample.inf -->
         <TopologyName>TopologyExternalDisplay*</TopologyName> <!-- Topology filter reference string-->
         <PinId>1</PinId> <!-- KSPIN_TOPO_LINEOUT_DEST -->
         <Mode>{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}</Mode> <!--Signal processing mode raw-->
