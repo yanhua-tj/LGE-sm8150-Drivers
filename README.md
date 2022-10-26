@@ -1,10 +1,10 @@
 
-# (WIP) Windows Driver pack for LG G8X devices
+# Windows Driver pack for LGE sm8150 devices
 
-This repository contains driver binary files for LG G8X(mh2lm).
-All driver binary files form a board support package to be used on LG G8X(mh2lm) devices to provide hardware support for the Windows operating system.
+This repository contains driver binary files for LGE sm8150 devices, including (currently) G8X (mh2lm) and G8S(betalm).
+All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
-These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
+These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000!
 
 ## Resources
 
