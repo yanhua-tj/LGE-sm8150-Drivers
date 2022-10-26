@@ -46,5 +46,5 @@ SOFTWARE.
 For preserving charset encoding, please checkout with using:
 
 ```
-git clone -c core.autocrlf=false https://github.com/MollySophia/mh2lm-Drivers
+git clone -c core.autocrlf=false https://github.com/MollySophia/LGE-sm8150-Drivers
 ```
