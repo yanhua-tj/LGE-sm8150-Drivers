@@ -1,13 +1,13 @@
-## Surface Duo Drivers BSP - Version 2210.51
-**Released:** 10/16/2022 11:00 PM UTC+2
+## Surface Duo Drivers BSP - Version 2211.43
+**Released:** 11/13/2022 12:30 PM UTC-7
 
 **Quality:** Preview
 
-![Surface Duo Dual Screen Windows](https://user-images.githubusercontent.com/3755345/170788230-a42e624a-d2ed-4070-b289-a9b34774bcd0.png)
+![Surface Duo Dual Screen Windows](https://user-images.githubusercontent.com/3755345/197420866-d3bb0534-c848-4cc2-a242-04dae48b0f6e.png)
 
 ### General information
 
-You can view compatibility for this release, along with important information and what works, and what doesn't at this link: https://github.com/WOA-Project/SurfaceDuo-Guides/blob/b95e43f5b2e16ba715d9339012d7beb8f11926b6/Status.md
+You can view compatibility for this release, along with important information and what works, and what doesn't at this link: https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Status.md
 
 
 ### Release notes
@@ -16,20 +16,24 @@ ________________________________________________________________________________
 
 #### Important information
 
-- ⚠️⚠️ **IMPORTANT: This version of the drivers needs to be paired with UEFI version greater or equal to 2210.48.** ⚠️⚠️
+- ⚠️⚠️ **IMPORTANT: This version of the drivers needs to be paired with UEFI version greater or equal to 2211.16.** ⚠️⚠️
 - ⚠️⚠️ **IMPORTANT: If you get a BSOD/Bugcheck "SOC_SUBSYSTEM_FAILURE" when upgrading, you will have to reinstall Windows** ⚠️⚠️
 
 ### Changelog
 
-- Addresses an issue with device ids for PEP Provisioning Packages for Power Performance Tuning. This should resolve poor performance regressions with last update
+#### Surface Duo 1
 
-- Addresses an issue with Power Delivery PHY TX and RX Messaging Packets being incorrectly interpreted by the device under some rare occasions. This should improve Power Delivery compatibility over the device USB-C Port.
+- Addresses all known issues currently known with the Device crashing during sleep with a workaround built into the Power Engine Plugin driver.
 
 - Call provisioning is work in progress, if calls do not work for you at the moment, you may need to provision the call functionality manually. (Same as on Lumia 950s: https://woa-project.github.io/LumiaWOA/guides/ican0/, value is not different between 950s and Duo either, so if you already have such value, you're good to go, this is temporary!)
 
-
 __Improvements to CPU core clock frequency will come in an upcoming release__
 
+#### Surface Duo 2
+
+- Addresses an issue preventing first boot from working. (Disables UCSI USB stack for now)
+
+- Call provisioning is work in progress, if calls do not work for you at the moment, you may need to provision the call functionality manually. (Same as on Lumia 950s: https://woa-project.github.io/LumiaWOA/guides/ican0/, value is not different between 950s and Duo either, so if you already have such value, you're good to go, this is temporary!)
 
 ### Sensor Calibration Provisioning (Mandatory)
 
@@ -52,7 +56,7 @@ It may also be possible to provision it using data from the SFPD partition expos
 - Digitizers will not react to the device being folded over
 - Displays will not react to the device being folded over most of the time
 - Physical device data is incorrect
-- Graphical Rendering Issues
+- Digitizers aren't calibrated correctly
 
 
 ### Accessing Foldable Sensors from your applications
